@@ -1,0 +1,37 @@
+Column name,explanation,units
+ID,Unique identifier code for each fire,text
+latitud,Latitude,0.00°
+longitud,Longitude,0.00°
+municip,Municipality,text
+localdd,Name of the locality,text
+predio,Name of the property,text
+causa,Identified cause of the fire (Spanish),text
+ecos,"Code of the vegetation (B=Forest; P=Pine,Q=Quercus; PN=Grassland; PU=Pastureland; M*=scrubland; SB*=Low deciduous forest; SM*=Medium deciduous forest",text
+tipo,Type of fire (Superficial=Superficial; Mixto=Mixed; De copa=Crown fire; Subterráneo=Smoldering fire),text
+inicio,Starting date of the fire,YYYY-MM-DD
+termino,Ending date of the fire,YYYY-MM-DD
+renuevo,Area of burned resprouts,ha
+arboreo,Area of burned trees,ha
+arbustv,Area of burned shrubs,ha
+herbace,Area of burned weeds,ha
+total,Total burned area,ha
+copa,Area with crown fire,ha
+dur,Duration of the active fire,days
+tempord,season (lluvias=rainy; secas=dry),text
+temp_añ,year,number
+difftim,Rounded days of difference,number
+radio,Inferred equivalent ratio ,m
+pendint,Average slope of the terrain,°
+altitud,Meter above sea level,m
+CLAVE,Code of climate (Köppen modified by Garcia),text
+TIPO_C,Climate description,text
+usv,Land use and vegetation,text
+dst_hrt,Nearest distance to avocado orchards,m
+dist_gr,Nearest distance to agricultural fields,m
+dist_vs,Nearest distance to main roads,m
+dist_rb,Nearest distance to settlements,m
+Prec,Precipitation the day of fire,mm
+Tmin,Minimum temperature the day of fire,Celsius
+Tmax,Maximum temperature the day of fire,Celsius
+Prec30d,Accumulated precipitation 30 days before the fire,mm
+est,Code of the weather station used for the analysis ,text
