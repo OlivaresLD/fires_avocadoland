@@ -1,5 +1,6 @@
 Column name,explanation,units
 ID,Unique identifier code for each fire,text
+n_sec,Internal control number of CONAFOR,number
 latitud,Latitude,0.00°
 longitud,Longitude,0.00°
 municip,Municipality,text
@@ -35,3 +36,5 @@ Tmin,Minimum temperature the day of fire,Celsius
 Tmax,Maximum temperature the day of fire,Celsius
 Prec30d,Accumulated precipitation 30 days before the fire,mm
 est,Code of the weather station used for the analysis ,text
+porc_copa,Percentage of trees burned from the total area,%
+ROS_ha_day,Rate of spread of the fire by difftim as days,ha per day
