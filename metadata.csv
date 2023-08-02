@@ -19,7 +19,7 @@ total,Total burned area,ha
 copa,Area with crown fire,ha
 dur,Duration of the active fire,days
 tempord,season (lluvias=rainy; secas=dry),text
-temp_añ,year,number
+temp_tr,year,number
 difftim,Rounded days of difference,number
 radio,Inferred equivalent ratio ,m
 pendint,Average slope of the terrain,°
@@ -38,3 +38,8 @@ Prec30d,Accumulated precipitation 30 days before the fire,mm
 est,Code of the weather station used for the analysis ,text
 porc_copa,Percentage of trees burned from the total area,%
 ROS_ha_day,Rate of spread of the fire by difftim as days,ha per day
+N_inc,Number of other fires that burned somewhere inside the current inferred fire area,number
+Rec_prom,Mean value of the fire return interval of all intersecting fire areas,years
+N_fires_prom,Mean value of the recurrence for all the fires that burned somewhere inside the current inferred fire area,number
+Rec_area,Average between the area of the current fire and all the fires intersected,ha
+Fr_yr,Fire frequency per year at the current inferred fire area,number per year
